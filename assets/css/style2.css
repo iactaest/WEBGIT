@@ -1,0 +1,52 @@
+
+.border-5, .border-w-5 {
+  border-width: 5px !important;
+}
+.border-white {
+  border: 1px solid transparent;
+  border-color: #fff !important;
+}
+hr.hr-primary {
+  border-top-color: #CC164D!important;
+}
+em {
+  font-style: italic;
+}
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+
+
+#servizio11{
+    margin-top: 115px;
+}
+
+
+.social-links{
+    font-size: 24px;
+    border-bottom: #ffffff3d 1px solid;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+  padding-top: 10px;
+  color:#56d93d;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#main{
+  margin-top: 212px;
+}
+
+#prodotti-generali img {
+  width: 25%;
+  
+
+}
+
+#prodotti-generali .menu .menu-content a {
+  font-size: 20px;
+}

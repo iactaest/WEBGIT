@@ -1,0 +1,353 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+.marker-title {
+  background-color: #56d93d;
+  color: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  line-height: 2;
+}
+
+.marker {
+  color: #56d93d;
+}
+
+.section-title p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 900;
+  color: #56d93d;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ffffff36;
+  border-color: #fcfcfc;
+  font-size: 12px;
+}
+
+.specials .nav-link.active {
+  border: 3px solid #56d93d;
+  background: none;
+  border-radius: 50px;
+}
+
+.back-to-top i {
+  color: #56d93d;
+}
+
+/*--- # TopBar inizio --------------------------------------------------------------*/
+#topbar .contact-info i {
+  color: #56d93d;
+}
+
+#header .logo img {
+  max-height: 60px;
+}
+
+/*--- # TopBar fine --------------------------------------------------------------*/
+/*--- # LandingPage inizio --------------------------------------------------------------*/
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: url() no-repeat center center/cover;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(70deg, black, white);
+  background-size: 3px 3px;
+  z-index: 2;
+}
+
+#hero {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+}
+
+#hero .btn-menu {
+  border-radius: 3px;
+  border: 2px solid #56d93d;
+}
+
+#hero .btn-book {
+  border-radius: 3px;
+  border: 2px solid #56d93d;
+}
+
+#hero .play-btn {
+  background: linear-gradient(70deg, black, white);
+  margin: 14px auto -22px;
+}
+
+#hero img {
+  margin-top: 20px;
+}
+
+a {
+  color: #56d93d;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  #hero .container {
+    padding: 10vh 3vh;
+  }
+  #hero .three-btn {
+    width: 100%;
+    margin: auto;
+  }
+  #hero a {
+    color: #56d93d;
+    font-size: 27px;
+  }
+}
+
+/*--- # LandingPage fine --------------------------------------------------------------*/
+/*--- # Menu inizio --------------------------------------------------------------*/
+#menu {
+  padding: 0px 0;
+}
+
+.menu #menu-flters img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.menu #menu-flters li {
+  width: 25%;
+  font-size: 14px;
+}
+
+.menu .header__center a {
+  font-size: .5rem;
+}
+
+.header__center {
+  font-size: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr max-content 1fr;
+      grid-template-columns: 1fr -webkit-max-content 1fr;
+      grid-template-columns: 1fr max-content 1fr;
+  -webkit-column-gap: 1.2rem;
+          column-gap: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 100;
+  background-color: #8080802b;
+  padding: 11px;
+}
+
+.header__center::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: currentColor;
+}
+
+.header__center::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: currentColor;
+}
+
+/*--- # Menu fine --------------------------------------------------------------*/
+/*--- # why us inzio --------------------------------------------------------------*/
+.box1 {
+  background: url(../img/foto-ape/1.jpeg) no-repeat center center/cover;
+  border-radius: 3px;
+}
+
+.box2 {
+  background: url(../img/foto-ape/2.jpeg) no-repeat center center/cover;
+}
+
+.box3 {
+  background: url(../img/foto-ape/3.jpeg) no-repeat center center/cover;
+}
+
+.why-us .box {
+  margin-top: 20px;
+  height: 40vh;
+}
+
+.why-us .box h4 {
+  margin: 20px 0;
+  background-color: rgba(255, 255, 255, 0.248);
+  position: absolute;
+  top: -60px;
+  left: 20px;
+  padding: 10px;
+  width: 77%;
+}
+
+.why-us .box h4 span {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 0;
+  margin-left: 80px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*--- # why us fine --------------------------------------------------------------*/
+/*--- # menu detalles inizio --------------------------------------------------------------*/
+.menu-container {
+  background: url(../img/detalles.png);
+}
+
+.menu .section-title {
+  padding-bottom: 0px;
+}
+
+.menu #menu-flters {
+  margin: 30px auto 15px auto;
+}
+
+.menu #menu-flters li:hover {
+  color: #56d93d;
+}
+
+.menu #menu-flters li.filter-active {
+  color: #56d93d;
+}
+
+.menu .menu-container .menu-content a {
+  margin: -10px auto;
+  padding: 13px;
+  border-radius: 3px;
+}
+
+.menu .menu-img {
+  margin: auto;
+  display: block;
+  float: none;
+}
+
+.menu .menu-content {
+  margin-left: 0px;
+}
+
+.menu .btn {
+  display: block;
+}
+
+#menu .btn-primary {
+  margin: 7px auto;
+  width: 50%;
+}
+
+/*--- # menu detalles fine --------------------------------------------------------------*/
+/*--- # files inizio --------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .specials {
+    padding-top: 90px;
+  }
+  .specials .details h3 {
+    margin-top: 10px;
+  }
+  .specials p a {
+    display: inline;
+  }
+  .specials .nav-link {
+    color: #56d93d;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .nav-item .bi {
+    display: block;
+  }
+  .nav-item img {
+    display: block;
+  }
+  .bi-check-circle::before {
+    display: block;
+  }
+  .nav-tabs img {
+    vertical-align: middle;
+    width: 56px;
+  }
+  .tab-content .img-fluid {
+    background: url(../img/detalles.png) no-repeat center center/cover;
+    border-radius: 3px;
+  }
+  .details {
+    text-align: center;
+  }
+}
+
+/*--- # files fine --------------------------------------------------------------*/
+/*--- #  eventi inizio --------------------------------------------------------------*/
+.events {
+  padding: 78px 0;
+  background: url(../img/events-bg.jpg);
+}
+
+.events .event-item .price span {
+  border-bottom: 2px solid #56d93d;
+}
+
+.contact .info i {
+  background: #56d93d;
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"] {
+  background: #56d93d;
+}
+
+/*--- #  eventi fine --------------------------------------------------------------*/
+/*# sourceMappingURL=overwrite.css.map */
